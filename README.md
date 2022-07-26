@@ -18,7 +18,7 @@ Aşağıdaki adresten üye olarak API key edinebilirsiniz. Çalışmada kendi AP
 
 https://www.themoviedb.org/settings/api
 
-**.env dosyası içerisinde gerekli API kodunu girelim.**
+**.env dosyası oluşturun ve içerisinde gerekli API kodunu girelim.**
 
 `export MOVIE_API='WRITEYOURAPIKEYHERE’`
 
