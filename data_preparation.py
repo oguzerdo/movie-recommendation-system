@@ -67,6 +67,6 @@ cosine_sim = cosine_similarity(tfidf_matrix, tfidf_matrix)
 
 cosine_sim.shape
 
-os.mkdir('model')
+os.makedirs('model', exist_ok=True)
 pickle.dump(final_data,open('model/movie_list.pkl', 'wb'))
 pickle.dump(cosine_sim,open('model/similarity.pkl', 'wb'))
