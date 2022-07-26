@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 import pickle
-
+import os
 import warnings
 
 import pandas as pd
@@ -67,6 +67,6 @@ cosine_sim = cosine_similarity(tfidf_matrix, tfidf_matrix)
 
 cosine_sim.shape
 
-
+os.mkdir('model')
 pickle.dump(final_data,open('model/movie_list.pkl', 'wb'))
 pickle.dump(cosine_sim,open('model/similarity.pkl', 'wb'))
