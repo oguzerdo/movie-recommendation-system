@@ -1,0 +1,8 @@
+/.ipynb_checkpoints/
+/.gitignore/
+/model/
+/.DS_Store/
+/.env
+.ipynb_checkpoints
+/model/
+/.idea/

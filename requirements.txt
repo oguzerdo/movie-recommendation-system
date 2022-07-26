@@ -1,0 +1,6 @@
+streamlit~=1.11.0
+requests~=2.27.1
+pillow~=9.1.1
+python-dotenv
+pandas
+sklearn
