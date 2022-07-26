@@ -5,8 +5,8 @@ import os
 from PIL import Image
 from dotenv import load_dotenv
 import pandas as pd
-logo = Image.open('image_files/logo.png')
-frame = Image.open('image_files/frame.png')
+logo = Image.open('images/logo.png')
+frame = Image.open('images/frame.png')
 
 load_dotenv()
 API = os.getenv('MOVIE_API')
