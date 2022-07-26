@@ -64,7 +64,7 @@ with col3:
 st.header('Film Tavsiye Sistemi')
 
 movies = pickle.load(open('model/movie_list.pkl', 'rb'))
-cosine_sim = pickle.load(open('model/similarity.pkl', 'rb'))
+cosine_sim = pickle.load(open('model/cosine_sim.pkl', 'rb'))
 
 movie_list = movies['original_title'].values  # Tüm film isimlerini alma
 

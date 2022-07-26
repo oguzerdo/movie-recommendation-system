@@ -70,4 +70,4 @@ cosine_sim.shape
 os.makedirs('model', exist_ok=True)
 
 pickle.dump(final_data,open('model/movie_list.pkl', 'wb'))
-pickle.dump(cosine_sim,open('model/similarity.pkl', 'wb'))
+pickle.dump(cosine_sim,open('model/cosine_sim.pkl', 'wb'))
