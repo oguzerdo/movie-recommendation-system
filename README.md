@@ -8,19 +8,24 @@ Repoyu aşağıdaki adresten indirelim.
 
 **Gerekli paketleri yükleyelim**
 
-`python3 -r requirements.txt`
+`pip3 install -r requirements.txt`
 
-`python ata_preparation.py`
+**Model dosyalarının oluşması için aşağıdaki scripti çalıştıralım.**
 
-`streamlit run app.py`
+`python data_preparation.py`
+
+Aşağıdaki adresten üye olarak API key edinebilirsiniz. Çalışmada kendi API'nizi kullanmanız gerekmekte. 
+
+https://www.themoviedb.org/settings/api
 
 **.env dosyası içerisinde gerekli API kodunu girelim.**
 
 `export MOVIE_API='WRITEYOURAPIKEYHERE’`
 
-**Uygulamayı streamlit ile çalıştıralım.**
+**Localde streamlit uygulamasını başlatma**
 
 `streamlit run app.py`
+
 
 ## Heroku ile Uygulamanızı Dış Dünyaya açın
 
@@ -38,7 +43,7 @@ Projemize bir isim verelim ve lokasyon bilgisini seçerek **Create app** ile dev
 
 ### Install the Heroku CLI
 
-Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-command-line).
+[Heroku CLI](https://devcenter.heroku.com/articles/heroku-command-line)
 
 **Heroku CLI yükleyelim.**
 
@@ -48,7 +53,7 @@ Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/her
 
 - **Windows**
 
-Kullanıcıları bağlantıdan ilgili exe dosyasını indirip kurulum yapabilir.
+Bağlantıdan ilgili exe dosyasını indirip kurulum yapabilir.
 
 İlgili proje dizininde terminal açarak sırasıyla aşağıdaki işlemleri yapalım.
 
@@ -66,13 +71,11 @@ Proje dizinimize girerek aşağıdaki kodları çalıştıralım.
 
 <aside>
 💡 Aşağıdaki `movie-recommender-miuul` sizin koyduğunuz proje adı olacak.
-
 </aside>
 
 ```
-$ cd my-project/
-$ git init
-$ heroku git:remote -a movie-recommender-miuul
+git init
+heroku git:remote -a movie-recommender-miuul
 ```
 
 ### Uygulamayı Heroku Reposuna gönderelim.
