@@ -2,8 +2,18 @@ import pandas as pd
 import json
 import pickle
 
+import warnings
+
+import pandas as pd
+from pandas.core.common import SettingWithCopyWarning
+
+warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
+
+
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
+
+
 # https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/code?datasetId=138&sortBy=voteCount
 
 
