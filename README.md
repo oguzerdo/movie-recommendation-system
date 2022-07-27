@@ -95,4 +95,4 @@ Bu işlem dosya boyutları sebebiyle uzun sürmekte.
 
 # BINGO!
 
-![Untitled](images/Untitled%206.png)
+![Untitled](images/Untitled.gif)
