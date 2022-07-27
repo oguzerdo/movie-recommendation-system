@@ -35,7 +35,7 @@ Aşağıdaki adresten Herokuya kayıt olalım.
 
 Yeni bir proje oluşturalım.
 
-![Untitled](images/Untitled%201.png)
+![Untitled](images/Untitled%201.gif)
 
 Projemize bir isim verelim ve lokasyon bilgisini seçerek **Create app** ile devam edelim.
 

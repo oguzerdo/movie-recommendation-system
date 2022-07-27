@@ -56,10 +56,10 @@ with col1:
     st.image(frame, width=125)
 
 with col2:
-    st.image(logo, caption='🧠 Miull, Skills of tomorrow!', width=350)
+    st.image(logo, caption='🧠 Skills of tomorrow!', width=350)
 
 with col3:
-    st.markdown("[![Foo](https://img.icons8.com/material-outlined/96/000000/github.png)](https://github.com/oguzerdo)")
+    st.markdown("[![Foo](https://img.icons8.com/material-outlined/96/000000/github.png)](https://github.com/oguzerdo/Movie-Recommendation-System)")
 
 st.header('Film Tavsiye Sistemi')
 
